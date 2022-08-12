@@ -22,13 +22,13 @@
                                 <name>Derong Jin</name>
                             </p>
                             <p>
-                                I'm currently a master student at <a href="https://www.ntu.edu.sg/" target="_blank">Nanyang Technology University</a>. Prior to that, I obtained my bachelor's degree from <a href="https://ev.buaa.edu.cn/" target="_blank">Beihang University</a>.
+                                I'm currently a master student at <a href="https://www.ntu.edu.sg/" target="_blank">Nanyang Technological University</a> in Singapore. Prior to that, I obtained my bachelor's degree from <a href="https://ev.buaa.edu.cn/" target="_blank">Beihang University</a>.
                             </p>
                             <p>
                                 I'm broadly interested in deel learning, human-computer interaction and virtual reality.
                             </p>
                             <p>
-                                I spent wonderful time and laid a solid foundation in VR at <a href="http://vrlab.buaa.edu.cn/index.htm">State Key Laboratory of Virtual Reality Technology and Systems</a>, supervised by <a href="http://miaowang.me/">Prof. Miao Wang</a>. Moreover, I did some robotics projects with <a href="https://ieeexplore.ieee.org/author/37299902000">Prof. Abdelkader EL Kamel</a> during my bachelor's study.
+                                I spent wonderful time and laid a solid foundation in VR at <a href="http://vrlab.buaa.edu.cn/index.htm">State Key Laboratory of Virtual Reality Technology and Systems</a>, supervised by <a href="http://miaowang.me/">Prof. Miao Wang</a>. Moreover, I did some robotics projects with <a href="https://scholar.google.com/citations?hl=zh-CN&user=_8oQ1HkAAAAJ&view_op=list_works&sortby=pubdate">Prof. Abdelkader EL Kamel</a> during my bachelor's study.
                             </p>
 
                             <p style="text-align:center">
@@ -71,7 +71,7 @@
                         </td>
                         <td style="padding:20px;width:75%;vertical-align:middle">
                             <a href="https://www.ntu.edu.sg/">
-                                <papertitle>Nanyang Technology University, Singapore</papertitle>
+                                <papertitle>Nanyang Technological University, Singapore</papertitle>
                             </a>
                             <p></p>
                             <em>MSc, in School of Electrical and Electronic Engineering</em> &nbsp&nbsp 2021.08 - now
@@ -91,7 +91,7 @@
                             <em>BEng (with honors) in School of General Engineering </em> &nbsp&nbsp 2017.09 - 2021.06
                             <p></p>
                             <strong>GPA: 89.6/100</strong>
-                            <P>Courses: Calculus (99/100), Differential Equations (98/100), Computer Science and Programming (93/100), Intelligent Robotics (96/100), Big Data and Brain-inspired Intelligent (94/100), The Priciples of Automatic Control (100/100)</P>
+                            <P>Courses: Calculus (99/100), Differential Equations (98/100), Computer Science and Programming (93/100), Intelligent Robotics (96/100), Big Data and Brain-inspired Intelligence (94/100), The Principles of Automatic Control (100/100)</P>
                         </td>
                     </tr>
                     <tr>
@@ -122,36 +122,72 @@
             </table>
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
-                    <tr>
+                    <tr onmouseout="VR2021_stop()" onmouseover="VR2021_start()">
                         <td style="padding:20px;width:25%;vertical-align:middle">
-                            <img src="images/VR2021.jpg" alt="blind-date" width="160" height="160">
+                            <div class="one">
+                                <div class="two" id='VR2021_image'>
+                                    <video width=100% height=100% muted autoplay loop>
+                                        <source src="images/VR2021.m4v" type="video/m4v">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <img src='images/VR2021.jpg' width="160" height="160">
+                            </div>
+                            <script type="text/javascript">
+                                function VR2021_start() {
+                                    document.getElementById('VR2021_image').style.opacity = "1";
+                                }
+
+                                function VR2021_stop() {
+                                    document.getElementById('VR2021_image').style.opacity = "0";
+                                }
+                                VR2021_stop()
+                            </script>
                         </td>
                         <td width="75%" valign="middle">
                             <a href="https://ieeexplore.ieee.org/abstract/document/9417804">
                                 <papertitle>Detection Thresholds with Joint Horizontal and Vertical Gains in Redirected Jumping</papertitle>
                             </a>
                             <br>
-                            Yi-Jun Li*, <strong>De-Rong Jin*</strong> (equal contribution), <a href="http://miaowang.me/">Miao Wang</a>, Jun-Long Chen, <a href="https://www.inf.uni-hamburg.de/en/inst/ab/hci/people/steinicke.html">Frank Steinicke</a>, <a href="https://cg.cs.tsinghua.edu.cn/#people.htm#shimin.htm">Shi-Min Hu</a>, Qin-Ping Zhao
+                            <a href="https://scholar.google.com/citations?hl=zh-CN&user=2h1R-cMAAAAJ">Yi-Jun Li</a>*, <strong>De-Rong Jin*</strong> (equal contribution), <a href="http://miaowang.me/">Miao Wang</a>, Jun-Long Chen, <a href="https://www.inf.uni-hamburg.de/en/inst/ab/hci/people/steinicke.html">Frank Steinicke</a>, <a href="https://cg.cs.tsinghua.edu.cn/#people.htm#shimin.htm">Shi-Min Hu</a>, Qin-Ping Zhao
                             <br>
                             <em>Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</em>, 2021 &nbsp<font color="red"><strong>(CCF-A)</strong></font>
                             <br>
                             <a href="data/VR2021.pdf">paper</a> &nbsp|&nbsp
                             <a href="https://ieeexplore.ieee.org/abstract/document/9417804/media#media">supp video</a>  &nbsp|&nbsp
-                            <a href="https://www.youtube.com/watch?v=Ds-h1J4MFMI&t=21650s">talk video</a>
+                            <a href="https://www.youtube.com/watch?v=Ds-h1J4MFMI&t=21650s">presentation video</a>
                             <p>This paper estimated and modeled the detection thresholds as 2D continuous curves rather than discrete points with simultaneous horizontal and vertical gains in redirected jumping through a novel user study.</p>
                         </td>
                     </tr>
 
                     <tr>
                         <td style="padding:20px;width:25%;vertical-align:middle">
-                            <img src="images/VRW2021.png" alt="blind-date" width="160" height="160">
+                            <div class="one">
+                                <div class="two" id='VRIH2021_image'>
+                                    <video width=100% height=100% muted autoplay loop>
+                                        <source src="images/VRIH2021.m4v" type="video/m4v">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <img src='images/VRIH2021.png' width="160" height="160">
+                            </div>
+                            <script type="text/javascript">
+                                function VRIH2021_start() {
+                                    document.getElementById('VRIH2021_image').style.opacity = "1";
+                                }
+
+                                function VRIH2021_stop() {
+                                    document.getElementById('VRIH2021_image').style.opacity = "0";
+                                }
+                                VRIH2021_stop()
+                            </script>
                         </td>
                         <td width="75%" valign="middle">
                             <a href="https://www.sciencedirect.com/science/article/pii/S2096579621000899">
                                 <papertitle>Effects of virtual environment and self-representations on perception and physical performance in redirected jumping</papertitle>
                             </a>
                             <br>
-                            Yi-Jun Li, <a href="http://miaowang.me/">Miao Wang</a>, <strong>De-Rong Jin</strong>, <a href="https://www.inf.uni-hamburg.de/en/inst/ab/hci/people/steinicke.html">Frank Steinicke</a>, Qin-Ping Zhao
+                            <a href="https://scholar.google.com/citations?hl=zh-CN&user=2h1R-cMAAAAJ">Yi-Jun Li</a>, <a href="http://miaowang.me/">Miao Wang</a>, <strong>De-Rong Jin</strong>, <a href="https://www.inf.uni-hamburg.de/en/inst/ab/hci/people/steinicke.html">Frank Steinicke</a>, Qin-Ping Zhao
                             <br>
                             <em>Virtual Reality & Intelligent Hardware, 3 (6), 1-19</em>, 2021 (19 pages)
                             <br>
@@ -231,7 +267,7 @@
                         <td style="padding:20px;width:75%;vertical-align:middle">
                             <a href="http://vrlab.buaa.edu.cn/index.htm"><papertitle>State Key Laboratory of Virtual Reality Technology and Systems, BUAA</papertitle></a> &
                             <br>
-                            <a href="http://szpclab.com/"><papertitle>Virtual Reality Research Center in Peng Cheng Laboratory, Shenzhen</papertitle></a>
+                            <a href="http://szpclab.com/"><papertitle>Peng Cheng Laboratory, Shenzhen</papertitle></a>
                             <p></p>
                             2019.11 - 2020.11
                             <br>
@@ -289,12 +325,12 @@
                             <p></p>
                             2020.11 - 2021.06, undergraduate capstone project
                             <br>
-                            Supervised by <a href="https://ieeexplore.ieee.org/author/37299902000">Prof. Abdelkader EL Kamel</a> and <a href="http://www.me.buaa.edu.cn/info/1071/2134.htm">Prof. Jing-Jun Yu</a>
+                            Supervised by <a href="https://scholar.google.com/citations?hl=zh-CN&user=_8oQ1HkAAAAJ&view_op=list_works&sortby=pubdate">Prof. Abdelkader EL Kamel</a> and <a href="http://www.me.buaa.edu.cn/info/1071/2134.htm">Prof. Jing-Jun Yu</a>
                             <br>
                             <ul style="padding-left:20px;margin:5px">
 
                                 <li>
-                                    Design of the whole electronic hardware system and control strategies of the small robot for Eurobot Competition 2021.
+                                    Designed the whole electronic hardware system and control strategies of the small robot for Eurobot Competition 2021.
                                 </li>
 
                                 <li>
@@ -358,7 +394,7 @@
                             <p></p>
                             2017.09 - 2018.06
                             <br>
-                            Supervised by <a href="http://www2.mie.utoronto.ca/labs/ARL-MLS/Behdinan.html">Prof. Kamran Behdinan</a>
+                            Supervised by <a href="https://arlmls.mie.utoronto.ca/biography/">Prof. Kamran Behdinan</a>
                             <br>
                             <ul style="padding-left:20px;margin:5px">
 
